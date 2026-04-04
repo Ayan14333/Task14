@@ -52,7 +52,7 @@ let digitSum = 0;
 
 while (temp > 0) {
     digitSum += temp % 10;
-    temp = Math.floor(temp / 10);
+    temp = Math.floor(temp / 10); //this will remove the number after decimal
 }
 
 console.log("\nSum of digits of " + number + " is: " + digitSum);
